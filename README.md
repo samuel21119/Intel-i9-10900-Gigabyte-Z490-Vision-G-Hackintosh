@@ -45,6 +45,8 @@ https://browser.geekbench.com/v5/cpu/2412288
 
 - **dGPU**: RX 580 8GB. Works OOB, supports HiDPI in 4K display.
 
+- Native NVRAM
+
 - Sleep/Wake
 
 - Reboot/Shutdown
