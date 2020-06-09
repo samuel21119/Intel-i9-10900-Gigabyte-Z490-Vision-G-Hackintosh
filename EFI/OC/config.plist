@@ -766,7 +766,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string></string>
+				<string>shikigva=80</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
