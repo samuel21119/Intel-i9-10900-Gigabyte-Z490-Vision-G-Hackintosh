@@ -14,6 +14,7 @@ Hello folks, I have successfully installed macOS 10.15.5 on my PC.
   - 2.5Gb Ethernet: Intel I225-V
 - RAM: 16GB * 2 Kingston 2666 MHz
 - dGPU: [MSI Radeon™ RX 580 ARMOR 8G OC](https://www.msi.com/Graphics-card/Radeon-RX-580-ARMOR-8G-OC/)
+- Wireless chip: Fenvi T919
 - Display: ASUS MX27UC 4k Display
 - SMBIOS: iMac19,1
 
@@ -44,6 +45,8 @@ https://browser.geekbench.com/v5/cpu/2412288
   2. Create custom FakeID-kext "FakePCIID_Intel_I225-V.kext".
 
 - **dGPU**: RX 580 8GB. Works OOB, supports HiDPI in 4K display.
+
+- Bluetooth & Wi-Fi
 
 - Native NVRAM
 
@@ -140,7 +143,7 @@ Layout-id and device-id is injected via the device properties.
 
 ## Bluetooth/Wi-Fi
 
-No onboard wireless chip. Going to buy Fenvi T919, result will update later.
+Work OOB. Wi-Fi, bluetooth, airdrop and handoff works.
 
 ## CFG-Lock
 
