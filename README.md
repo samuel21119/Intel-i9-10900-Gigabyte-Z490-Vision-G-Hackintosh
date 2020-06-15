@@ -147,12 +147,16 @@ Work OOB. Wi-Fi, bluetooth, airdrop and handoff works.
 
 ## CFG-Lock
 
-Can't unlock CFG-lock. So I enabled `AppleCpuPmCfgLock` and `AppleXcpmCfgLock` in order to boot.
+- Before
+  Can't unlock CFG-lock. So I enabled `AppleCpuPmCfgLock` and `AppleXcpmCfgLock` in order to boot.
 
-I followed https://dortania.github.io/OpenCore-Desktop-Guide/extras/msr-lock.html. But error occurs when extracting exported bin file. I guess it's beacuse of the strange BIOS map on this board.
+  I followed https://dortania.github.io/OpenCore-Desktop-Guide/extras/msr-lock.html. But error occurs when extracting exported bin file. I guess it's beacuse of the strange BIOS map on this board.
 
-![ifrextract](Photos/ifrextract.png)
+  ![ifrextract](Photos/ifrextract.png)
 
+- Now
+  Unlocked CFG-Lock via `CFGLock.efi`, thanks to [this post](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/). So `AppleCpuPmCfgLock` and `AppleXcpmCfgLock` is disabled.
+  
 ## BIOS Setting
 
 - Disable
