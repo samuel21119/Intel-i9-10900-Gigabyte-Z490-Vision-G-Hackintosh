@@ -44,9 +44,15 @@ https://browser.geekbench.com/v5/cpu/2412288
      
   2. Create custom FakeID-kext "FakePCIID_Intel_I225-V.kext".
 
-- **dGPU**: RX 580 8GB. Works OOB, supports HiDPI in 4K display.
+- **dGPU**: RX 580 8GB.  
+  Works OOB, supports HiDPI in 4K display. DRM also works with `shikigva=80` in boot-args.
 
-- Bluetooth & Wi-Fi
+- **iGPU**: UHD 630 (headless mode + dGPU)  
+  Using ```AAPL,ig-platform-id: 0300923E``` and everything works OOB.  
+  Sidecar tested by [rjenny509](https://www.reddit.com/r/hackintosh/comments/h7nctk/first_hackintosh_was_a_success_i7_10700k_rx5700xt/fumlvl9/)
+
+- **Bluetooth & Wi-Fi**: Fenvi T919  
+  Works OOB. Bluetooth's internal USB port needs to be configured in custom UIAC.aml.
 
 - Native NVRAM
 
@@ -91,15 +97,7 @@ https://browser.geekbench.com/v5/cpu/2412288
       2. AAPL,ig-platform-id: 0300923E (**Current setting**)
 
           ```AAPL,ig-platform-id: 0300923E```  
-
-        - No options to test iGPU in Geekbench 5  
-        - No iPad to test Sidecar function  
-        - Not sure if fully working
-
-        ![System Report](Photos/iGPU1.png)  
-        ![Geekbench 5](Photos/iGPU2.png)  
-        ![Hackintool](Photos/iGPU3.png)  
-        ![Video Proc Info](Photos/iGPU4.png)  
+        Fully working.
 
 
 ​        
