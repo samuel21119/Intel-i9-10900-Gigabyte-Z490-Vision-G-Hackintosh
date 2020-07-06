@@ -65,17 +65,15 @@ https://browser.geekbench.com/v5/cpu/2412288
 - iGPU UHD-630
 
   1. Using only iGPU:
-
       ```
       AAPL,ig-platform-id: 07009B3E
-      framebuffer-patch-enable: 01000000
-      framebuffer-stolenmem: 00003001
-      ```
+      ```  
 
-     - Safari can't open www.fb.com
-     - Firefox quit when opening
-     - VMware Fusion display problem (VM quit when loading vmware tool's display driver)
-     - Can't change account profile picture
+     - ~~Safari can't open www.fb.com~~  
+     - ~~Firefox quit when opening~~  
+     - ~~VMware Fusion display problem (VM quit when loading vmware tool's display driver)~~  
+     - ~~Can't change account profile picture~~  
+     - Problems above are fixed after removing frambuffer patch
      - iGPU HDMI output not working (Displayport is fine)
   
   2. Using iGPU + dGPU:   
@@ -85,8 +83,6 @@ https://browser.geekbench.com/v5/cpu/2412288
     
           ```
           AAPL,ig-platform-id: 07009B3E
-          framebuffer-patch-enable: 01000000
-          framebuffer-stolenmem: 00003001
           ```
         - Long boot time (about 30~40 seconds)
         - iGPU HDMI output not working (Displayport is fine)
