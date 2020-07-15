@@ -1,6 +1,9 @@
 ![](Photos/Info.png)
 
-Hello folks, I have successfully installed macOS 10.15.5 on my PC.  
+Hello folks, I have successfully installed macOS 10.15.5(initial setup) on my PC.  
+
+Tested fully working version:
+ - macOS Catalina 10.15.5~10.15.6
 
 ## Bootloader
 
