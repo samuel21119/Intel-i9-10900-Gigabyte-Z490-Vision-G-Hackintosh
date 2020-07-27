@@ -2,7 +2,7 @@
 
 Hello folks, I have successfully installed macOS 10.15.5(initial setup) on my PC.  
 
-Tested fully working version:
+Tested working version:
  - macOS Catalina 10.15.5~10.15.6
 
 ## Bootloader
@@ -20,6 +20,7 @@ Tested fully working version:
 - Wireless chip: Fenvi T919
 - Display: ASUS MX27UC 4k Display
 - SMBIOS: iMac19,1
+- BIOS version: F6
 
 ## Benchmark
 
@@ -59,7 +60,7 @@ https://browser.geekbench.com/v5/cpu/2412288
 
 - Native NVRAM
 
-- Sleep/Wake
+- Sleep/Wake (10.15.6 have sleep efi falure issues)
 
 - Reboot/Shutdown
 
@@ -154,7 +155,8 @@ Work OOB. Wi-Fi, bluetooth, airdrop and handoff works.
 
 - Now  
 
-  Unlocked CFG-Lock via `CFGLock.efi`, thanks to [this post](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/). So `AppleCpuPmCfgLock` and `AppleXcpmCfgLock` is disabled.
+  ~~Unlocked CFG-Lock via `CFGLock.efi`, thanks to [this post](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/). So `AppleCpuPmCfgLock` and `AppleXcpmCfgLock` is disabled.~~  
+  Updated BIOS to version F6, it have native CFG Lock switcher in BIOS menu.
 
 ## BIOS Setting
 
