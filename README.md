@@ -4,10 +4,11 @@ Hello folks, I have successfully installed macOS 10.15.5(initial setup) on my PC
 
 Tested working version:
  - macOS Catalina 10.15.5~10.15.6
+ - macOS Big Sur Beta (No DRM)
 
 ## Bootloader
 
-**[Opencore](https://github.com/acidanthera/OpenCorePkg) 0.5.9**
+**[Opencore](https://github.com/acidanthera/OpenCorePkg) 0.6.0**
 
 ## Hardware
 
@@ -99,8 +100,10 @@ https://browser.geekbench.com/v5/cpu/2412288
           ```AAPL,ig-platform-id: 0300923E```  
         Fully working.
 
+- DRM
 
-​        
+    DRM not working in Big Sur beta, Catalina works.
+
 
 ## USB Ports
 
