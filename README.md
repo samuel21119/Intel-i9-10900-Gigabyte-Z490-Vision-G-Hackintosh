@@ -1,3 +1,5 @@
+# Intel-i9-10900-Gigabyte-Z490-Vision-G-Hackintosh
+
 ![](Photos/Info.png)
 
 Hello folks, I have successfully installed macOS 10.15.5(initial setup) on my PC.  
@@ -107,12 +109,7 @@ https://browser.geekbench.com/v5/cpu/2412288
 
 ## USB Ports
 
-![USB map](Photos/USBmap.png)
-
-Using USBMap to create custom `SSDT-UIAC.aml`.
-
-Repo: https://github.com/corpnewt/USBMap
-
+See [USB-Port-Configuration.md](./USB-Port-Configuration.md)
 
 ## Audio
 
