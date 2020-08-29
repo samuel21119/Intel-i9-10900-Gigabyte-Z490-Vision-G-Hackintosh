@@ -8,4 +8,4 @@ Below is the usb map of Vision G. Please notice that HS12 is the onboard RGB fus
 
 ![](USB-Map/USB-Map.png)
 
-In my SSDT-UIAC.aml, I disabled HS03, SS03 and HS12 so other USB ports all works at their original specs(except F-U32C). Besides, I set HS02 to internal port because it's the port where my Fenvi T919's bluetooth header is connected to.
+In my SSDT-UIAC.aml, I disabled HS03, SS03, HS01 and HS12 so other USB ports all works at their original specs(except F-U32C). Besides, I set HS02 to internal port because it's the port where my Fenvi T919's bluetooth header is connected to.
