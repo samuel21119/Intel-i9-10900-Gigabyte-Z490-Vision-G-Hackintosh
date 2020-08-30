@@ -63,7 +63,7 @@ https://browser.geekbench.com/v5/cpu/2412288
 
 - Native NVRAM
 
-- Sleep/Wake (10.15.6 have sleep efi failure issues)
+- Sleep/Wake
 
 - Reboot/Shutdown
 
