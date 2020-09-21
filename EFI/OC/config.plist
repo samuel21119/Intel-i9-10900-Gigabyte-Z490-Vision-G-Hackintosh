@@ -907,17 +907,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02942310CDLNV9FB</string>
+			<string></string>
 			<key>ROM</key>
-			<data>GMBNKqwM</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZK0NJJV3Q</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>55B845FE-5E60-49C3-A340-D31207770AC0</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
