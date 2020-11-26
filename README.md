@@ -5,12 +5,12 @@
 Hello folks, I have successfully installed macOS 10.15.5(initial setup) on my PC.  
 
 Tested working version:
- - macOS Catalina 10.15.5~10.15.6
- - macOS Big Sur Beta (Safari v14.0 No DRM)
+ - macOS Catalina 10.15.5~10.15.7
+ - macOS Big Sur (Safari v14.0 No DRM)
 
 ## Bootloader
 
-**[Opencore](https://github.com/acidanthera/OpenCorePkg) 0.6.1**
+**[Opencore](https://github.com/acidanthera/OpenCorePkg) 0.6.3**
 
 ## Hardware
 
