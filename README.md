@@ -174,7 +174,7 @@ Work OOB. Wi-Fi, bluetooth, airdrop and handoff works.
 
 ## Credits
 
-- [Apple](www.apple.com) : Awesome macOS
+- [Apple](https://www.apple.com) : Awesome macOS
 - [Acidanthera](https://github.com/acidanthera) : OpencorePkg, kexts, tools etc.	
 - [Dortania](https://github.com/dortania) : Opencore guide
 - https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D : Intel 2.5Gb I225-V and onboard audio tweaks
