@@ -10,7 +10,7 @@ Tested working version:
 
 ## Bootloader
 
-**[Opencore](https://github.com/acidanthera/OpenCorePkg) 0.6.3**
+**[Opencore](https://github.com/acidanthera/OpenCorePkg) 0.6.6**
 
 ## Hardware
 
@@ -22,7 +22,7 @@ Tested working version:
 - dGPU: [MSI Radeon™ RX 580 ARMOR 8G OC](https://www.msi.com/Graphics-card/Radeon-RX-580-ARMOR-8G-OC/)
 - Wireless chip: Fenvi T919
 - Display: ASUS MX27UC 4k Display
-- SMBIOS: iMac19,1
+- SMBIOS: iMac20,2
 - BIOS version: F6
 
 ## Benchmark

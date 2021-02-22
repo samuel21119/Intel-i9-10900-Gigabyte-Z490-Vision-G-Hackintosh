@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\BTHPORT\Parameters\Keys\8863df8a646e]
+"cc988b9a535e"=hex:34,f4,45,dc,21,a1,00,9a,ab,cf,e3,a4,42,cd,db,7e
